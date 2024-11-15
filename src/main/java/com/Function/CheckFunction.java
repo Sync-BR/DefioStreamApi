@@ -1,5 +1,7 @@
 package com.Function;
 
+import com.implementation.CheckFunctionInterface;
+
 import java.util.List;
 import java.util.stream.Collectors;
 //Desafio 6 - Verificar se a lista contém algum número maior que 10:
