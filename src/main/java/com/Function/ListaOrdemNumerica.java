@@ -13,10 +13,4 @@ public class ListaOrdemNumerica implements ListaOrdemNumericaInterface {
     public List<Integer> ordenarListaOrdemCrescente(List<Integer> listaOrdenada) {
         return listaOrdenada.stream().sorted().collect(Collectors.toList());
     }
-
-    public static void main(String[] args) {
-        ListaOrdemNumerica listaOrdemNumerica = new ListaOrdemNumerica();
-        List<Integer> lista = listaOrdemNumerica.ordenarListaOrdemCrescente(Variable.numeros);
-        lista.stream().forEach(System.out::println);
-    }
 }
